@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1920" height="1080" fill="#f5f5f5"/>
+  
+  <!-- 定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- タイトル -->
+  <text x="960" y="80" text-anchor="middle" font-size="48" font-weight="bold" font-family="sans-serif" fill="#333">V字モデル</text>
+  
+  <!-- 左側の工程（開発フェーズ） - V字の左側斜線に沿って配置 -->
+  <!-- 要求分析 -->
+  <g transform="translate(150, 200)">
+    <rect x="0" y="0" width="280" height="70" rx="10" fill="#fdb462" stroke="#e89f4d" stroke-width="2"/>
+    <text x="140" y="45" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#333">要求分析</text>
+  </g>
+  
+  <!-- 要件定義 -->
+  <g transform="translate(300, 350)">
+    <rect x="0" y="0" width="280" height="70" rx="10" fill="#8dd3c7" stroke="#7ab8ad" stroke-width="2"/>
+    <text x="140" y="45" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#333">要件定義</text>
+  </g>
+  
+  <!-- 基本設計 -->
+  <g transform="translate(450, 500)">
+    <rect x="0" y="0" width="280" height="70" rx="10" fill="#90c090" stroke="#7aaa7a" stroke-width="2"/>
+    <text x="140" y="45" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#333">基本設計</text>
+  </g>
+  
+  <!-- 詳細設計 -->
+  <g transform="translate(600, 650)">
+    <rect x="0" y="0" width="280" height="70" rx="10" fill="#9db4e8" stroke="#8299d0" stroke-width="2"/>
+    <text x="140" y="45" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#333">詳細設計</text>
+  </g>
+  
+  <!-- コーディング -->
+  <g transform="translate(650, 800)">
+    <rect x="0" y="0" width="280" height="70" rx="10" fill="#5a8fd8" stroke="#4a7bc4" stroke-width="2"/>
+    <text x="140" y="45" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#fff">コーディング</text>
+  </g>
+  
+  <!-- コードレビュー -->
+  <g transform="translate(990, 800)">
+    <rect x="0" y="0" width="280" height="70" rx="10" fill="#5a8fd8" stroke="#4a7bc4" stroke-width="2"/>
+    <text x="140" y="45" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#fff">コードレビュー</text>
+  </g>
+  
+  <!-- 右側の工程（テストフェーズ） - V字の右側斜線に沿って配置 -->
+  <!-- 単体テスト -->
+  <g transform="translate(1040, 650)">
+    <rect x="0" y="0" width="280" height="70" rx="10" fill="#9db4e8" stroke="#8299d0" stroke-width="2"/>
+    <text x="140" y="45" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#333">単体テスト</text>
+  </g>
+  
+  <!-- 結合テスト -->
+  <g transform="translate(1190, 500)">
+    <rect x="0" y="0" width="280" height="70" rx="10" fill="#90c090" stroke="#7aaa7a" stroke-width="2"/>
+    <text x="140" y="45" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#333">結合テスト</text>
+  </g>
+  
+  <!-- システムテスト -->
+  <g transform="translate(1340, 350)">
+    <rect x="0" y="0" width="280" height="70" rx="10" fill="#8dd3c7" stroke="#7ab8ad" stroke-width="2"/>
+    <text x="140" y="45" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#333">システムテスト</text>
+  </g>
+  
+  <!-- 受け入れテスト -->
+  <g transform="translate(1490, 200)">
+    <rect x="0" y="0" width="280" height="70" rx="10" fill="#fdb462" stroke="#e89f4d" stroke-width="2"/>
+    <text x="140" y="45" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#333">受け入れテスト</text>
+  </g>
+  
+  <!-- V字を形成する矢印 -->
+  <!-- 左側の矢印（下向き） -->
+  <!-- 要求分析→要件定義 -->
+  <line x1="340" y1="270" x2="410" y2="350" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 要件定義→基本設計 -->
+  <line x1="490" y1="420" x2="560" y2="500" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 基本設計→詳細設計 -->
+  <line x1="640" y1="570" x2="710" y2="650" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 詳細設計→コーディング -->
+  <line x1="740" y1="720" x2="760" y2="800" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- コーディング→コードレビュー -->
+  <line x1="930" y1="835" x2="990" y2="835" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 右側の矢印（上向き） -->
+  <!-- コードレビュー→単体テスト -->
+  <line x1="1160" y1="800" x2="1180" y2="720" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 単体テスト→結合テスト -->
+  <line x1="1230" y1="650" x2="1300" y2="570" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 結合テスト→システムテスト -->
+  <line x1="1380" y1="500" x2="1450" y2="420" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- システムテスト→受け入れテスト -->
+  <line x1="1530" y1="350" x2="1600" y2="270" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+</svg>
