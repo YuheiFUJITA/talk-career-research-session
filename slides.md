@@ -33,6 +33,30 @@ mdc: true
 <ruby>藤<rt>ふじ</rt></ruby><ruby>田<rt>た</rt></ruby> <ruby>悠<rt>ゆう</rt></ruby><ruby>平<rt>へい</rt></ruby>
 
 ---
+
+# 以下をすべて許可します
+
+## 撮影・録画・録音
+
+大切だと思った情報は余すことなく記録しましょう。
+
+自分のためのメモも忘れずに。
+
+## 聴講中の調べごと
+
+わからないことはその場ですぐに調べましょう。
+
+「後で調べよう」の後は永遠に来ません。
+
+## 途中での質問
+
+質問はいつでも受け付けます。
+
+---
+src: ./pages/slide-info.md
+---
+
+---
 src: ./pages/about-me.md
 ---
 
@@ -49,79 +73,15 @@ src: ./pages/what-is-programmer.md
 ---
 
 ---
-layout: fact
+src: ./pages/engineering-with-ai.md
 ---
 
-# プログラミングからエンジニアリングへ
-
 ---
-
-# これからの目標
-
-|                              |           勉強            |    仕事     |
-| :--------------------------: | :-----------------------: | :---------: |
-|     どうやって評価するか     |        課題・試験         |  業務成果   |
-|       いつ結果が出るか       | 半年単位（2学期制の場合） | 1日〜数年後 |
-|       誰が責任を取るか       |         自分自身          | 上司・会社  |
-| どのような形で結果に現れるか |     成績・進学・就職      |
-
+src: ./pages/faq.md
 ---
-layout: fact
----
-
-# 生成AI時代の開発
-
----
-layout: fact
----
-
-# よみかきそろばん
-
----
-
-# 文章の意味を正確に読み解く力
-
-次の文を読みなさい。
-
-　Alexは男性にも女性にも使われる名前で、女性の名Alexandraの愛称であるが、男性の名Alexanderの愛称でもある。この文脈において、以下の文中の空欄にあてはまる最も適当なものを選択肢のうちから1つ選びなさい。
-
-Alexandra の愛称は（　　）である。
-
-（1）Alex　（2）Alexander　（3）男性　（4）女性
-
-※新井紀子『[AIvs.教科書が読めない子どもたち](https://amzn.asia/d/dmqsbE8)』（東洋経済新報社）P200より
-
----
-layout: fact
----
-
-# <AutoFitText modelValue="逃げたら一つ"/>
-
-# <AutoFitText modelValue="進めば二つ手に入る"/>
-
----
-layout: fact
----
-
-# <AutoFitText modelValue="よくわかんないけど"/>
-
-# <AutoFitText modelValue="なんかわかった！"/>
 
 ---
 layout: image
-image: waterfall-model.svg
+image: arara-logo.svg
+backgroundSize: 30em
 ---
-
----
-
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 50vh;">
-
-# スライドはGitHubで公開しています
-
-見たい方は各自Buildしてください。
-
-<img src="/qr-github.png" alt="GitHub RepositoryのQRコード" style="width:30%; border-radius: 16px;" />
-
-[https://github.com/YuheiFUJITA/talk-career-research-session](https://github.com/YuheiFUJITA/talk-career-research-session)
-
-</div>

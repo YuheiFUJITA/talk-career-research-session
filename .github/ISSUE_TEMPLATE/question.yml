@@ -1,0 +1,21 @@
+name: 質問
+description: 公演に関する質問はこちらから
+title: "[質問] "
+labels: question
+assignees:
+  - YuheiFUJITA
+body:
+  - type: input
+    id: title
+    attributes:
+      label: タイトル
+      description: 質問のタイトルを入力してください
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 質問内容
+      description: 質問の詳細を入力してください
+    validations:
+      required: true

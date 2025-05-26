@@ -16,6 +16,7 @@ url: https://www.arara.com/
 ---
 layout: iframe
 url: https://www.arara.com/company/mission/
+title: ミッション
 ---
 
 ---
@@ -28,7 +29,7 @@ url: https://www.arara.com/company/mission/
 
 ## 全社員に生成AIツールを提供
 
-ChatGPT・Gemini・GitHub Copilotを<span v-mark.red>希望する全社員に提供</span>しています。
+ChatGPT・Gemini・GitHub Copilotを<span v-mark.red>希望する全社員に提供</span>しています（一部業務委託あり）。
 
 ## 企画〜開発まで
 

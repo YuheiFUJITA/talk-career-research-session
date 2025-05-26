@@ -1,6 +1,6 @@
 <svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
   <!-- 背景 -->
-  <rect width="1920" height="1080" fill="#f5f5f5"/>
+  <rect width="1920" height="1080"/>
   
   <!-- 定義 -->
   <defs>
@@ -10,7 +10,7 @@
   </defs>
   
   <!-- タイトル -->
-  <text x="960" y="80" text-anchor="middle" font-size="48" font-weight="bold" font-family="sans-serif" fill="#333">V字モデル</text>
+  <!-- <text x="960" y="80" text-anchor="middle" font-size="48" font-weight="bold" font-family="sans-serif" fill="#333">V字モデル</text> -->
   
   <!-- 左側の工程（開発フェーズ） - V字の左側斜線に沿って配置 -->
   <!-- 要求分析 -->
