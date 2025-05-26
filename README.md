@@ -1,5 +1,7 @@
 # Welcome to [Slidev](https://github.com/slidevjs/slidev)!
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/YuheiFUJITA/talk-career-research-session)
+
 To start the slide show:
 
 - `pnpm install`

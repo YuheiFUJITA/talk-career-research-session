@@ -45,6 +45,10 @@ src: ./pages/about-product.md
 ---
 
 ---
+src: ./pages/what-is-programmer.md
+---
+
+---
 layout: fact
 ---
 
@@ -107,3 +111,17 @@ layout: fact
 layout: image
 image: waterfall-model.svg
 ---
+
+---
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 50vh;">
+
+# スライドはGitHubで公開しています
+
+見たい方は各自Buildしてください。
+
+<img src="/qr-github.png" alt="GitHub RepositoryのQRコード" style="width:30%; border-radius: 16px;" />
+
+[https://github.com/YuheiFUJITA/talk-career-research-session](https://github.com/YuheiFUJITA/talk-career-research-session)
+
+</div>
