@@ -1,5 +1,6 @@
-name: 質問
+name: 質問する
 description: 公演に関する質問はこちらから
+title: "[質問] "
 labels: question
 assignees:
   - YuheiFUJITA
