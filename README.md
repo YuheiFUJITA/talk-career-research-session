@@ -23,3 +23,7 @@ pnpm install
 # スライドの起動
 pnpm run dev
 ```
+
+## 質問
+
+もし講演内容などについて質問があれば、[Issueを作成](https://github.com/YuheiFUJITA/talk-career-research-session/issues/new?template=question.yml)してください。
