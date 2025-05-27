@@ -81,6 +81,10 @@ src: ./pages/faq.md
 ---
 
 ---
+src: ./pages/slide-info.md
+---
+
+---
 layout: image
 image: arara-logo.svg
 backgroundSize: 30em

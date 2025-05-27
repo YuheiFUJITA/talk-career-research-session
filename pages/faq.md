@@ -8,6 +8,23 @@ layout: section
 layout: statement
 ---
 
+# 【Question】<br>技術職は自由な働き方で<br>高収入そうですよね
+
+なんか楽しそう
+
+---
+layout: statement
+---
+
+# 【Answer】<br>誰ですかそんなこと言ったのは
+
+プログラミングが好きでないのであればキツイだけです。<br>
+（社会の現実を突きつけると給料は能力ではなく会社の売上で決まります）
+
+---
+layout: statement
+---
+
 # 【Question】<br>技術職でもスーツ着ますか？
 
 夏場は特に暑いので着たくありません。
@@ -56,9 +73,9 @@ layout: statement
 layout: statement
 ---
 
-# 【Answer】<br>最初は誰でもそうです
+# 【Answer】<br>習うより慣れろ
 
-どれだけプロ野球選手の映像を見ても実際に練習しないと上達しないのと同じです。
+座学の上に実践が成り立つのではありません、実践の補助に座学があるのです。<br>そしてこれはプログラミングも同じです。
 
 ---
 layout: fact
@@ -69,3 +86,11 @@ layout: fact
 # <AutoFitText modelValue="なんかわかった！"/>
 
 まじでこれです
+
+---
+layout: statement
+---
+
+# その他、講演内容に限らず<br>聞きたいことがあれば<br>何でも聞いてください
+
+怒られない範囲で何でも答えます
