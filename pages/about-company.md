@@ -1,4 +1,10 @@
 ---
+layout: section
+---
+
+# アララ株式会社について
+
+---
 layout: iframe-left
 url: https://www.arara.com/
 ---
@@ -29,12 +35,22 @@ title: ミッション
 
 ## 全社員に生成AIツールを提供
 
-ChatGPT・Gemini・GitHub Copilotを<span v-mark.red>希望する全社員に提供</span>しています（一部業務委託あり）。
+ChatGPT・Gemini・GitHub Copilotを<span v-mark.red>希望する全社員に提供</span>しています。
 
 ## 企画〜開発まで
 
-企画段階から開発・運用までを社内で完結させています。
+企画段階から開発・運用までを社内で完結させています（一部業務委託あり）。
 
 ## もくもく会（毎週開催）
 
 生成AIを活用した業務ツールの開発を社員が自発的に行える場を提供しています。
+
+---
+layout: iframe
+url: https://tasukutest.pages.dev/
+---
+
+---
+layout: iframe
+url: https://tabakokeisansan.pages.dev/
+---

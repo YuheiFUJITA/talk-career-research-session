@@ -186,3 +186,18 @@
 - [VS Code Meetup \#32 \- VS Code x Copilot](https://vscode.connpass.com/event/333720/)（2024-11-08 / 現地）
 
 </div>
+
+---
+
+# 過去の登壇アーカイブ（一部抜粋）
+
+<div class="grid grid-rows-2 gap-16">
+  <div class="grid grid-cols-2 gap-4">
+    <div><Youtube id="QKt_ZghCglE" /></div>
+    <div><Youtube id="XRq7JwNPppw" /></div>
+  </div>
+  <div class="grid grid-cols-2 gap-4">
+    <div><Youtube id="nWD0EBSMah8?start=5855" /></div>
+    <div><Youtube id="Nqtbf9Yoa70?start=2970" /></div>
+  </div>
+</div>
